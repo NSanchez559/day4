@@ -1,0 +1,67 @@
+/*
+.col-xs-12, .col-sm-3, .col-sm-9 {
+  height: 300px;
+  border: 100px solid #000;
+}
+.col-sm-4, .col-sm-8 .col-md-8{
+  height: 200px;
+  border: 1px dashed #000;
+}
+.red {
+  background-color: #e40007;
+}
+
+.grey {
+  background-color: #eee;
+}*/
+
+.blue {
+  height: 100px;
+  background-color: blue;
+  border: 2px solid #000;
+}
+
+.green {
+  height: 25px;
+  background-color: green;
+  border: 2px solid #000;
+}
+
+.red {
+  height: 150px;
+  background-color: red;
+  border: 2px solid #000;
+}
+
+.turqoise {
+  height: 150px;
+  background-color: #68e4fd;
+  border: 2px solid #000;
+}
+
+.orange {
+  height: 125px;
+  background-color: orange;
+  border: 2px solid #000;
+}
+
+footer {
+  background-color: #000;
+  height: 25px;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 475px) {
+  footer {
+    background-color: pink;
+  }
+
+}
+
+@media screen and (min-width: 476px and max-width: 768px) {
+  footer {
+    background-color: purple;
+  }
+
+}
